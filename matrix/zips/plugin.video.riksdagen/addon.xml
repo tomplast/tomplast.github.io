@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.riksdagen"
+version="0.2.0"
+name="Riksdagen"
+provider-name="tomplast">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.22.0" />
+  <import addon="script.module.routing" version="0.2.0" /></requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">riksdagen.se Kodi Video Plugin</summary>
+  <description lang="en_GB">riksdagen.se Kodi Video Plugin.</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+  <news>v0.1.0 (2023-01-21)
+  - Initial release.</news>
+</extension>
+</addon>

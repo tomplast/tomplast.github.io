@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.premierone"
+version="0.2.0"
+name="Premier One"
+provider-name="tomplast">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.22.0" />
+  <import addon="script.module.routing" version="0.2.0" /></requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Premier One Kodi Video Plugin</summary>
+  <description lang="en_GB">Premier One Kodi Video Plugin.</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+  <news>v0.2.0 (2023-01-01)
+  - Play movies directly (without having to chose "season 0" and select single video entry).
+  - Bug fixes.
+  - General improvements.</news>
+</extension>
+</addon>
