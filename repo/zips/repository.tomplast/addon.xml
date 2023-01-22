@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.tomplast" name="tomplast Repo" version="0.1.2" provider-name="tomplast">
+<addon id="repository.tomplast" name="tomplast Repo" version="0.1.3" provider-name="tomplast">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/repo/zips/addons.xml</info>
