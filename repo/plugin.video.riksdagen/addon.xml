@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.riksdagen"
-version="0.2.0"
+version="0.2.1"
 name="Riksdagen"
 provider-name="tomplast">
 <requires>
@@ -17,7 +17,7 @@ provider-name="tomplast">
   <assets>
     <icon>icon.png</icon>
   </assets>
-  <news>v0.1.0 (2023-01-21)
-  - Initial release.</news>
+  <news>v0.2.1 (2023-01-22)
+  - Fixed certain unplayable videos.</news>
 </extension>
 </addon>

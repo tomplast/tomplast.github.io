@@ -77,10 +77,9 @@ def list_latest(term, page):
         debate_date_string = re.match('.*<span class="date">(.*?)</span>.*', item).group(1)
 
         debate_short_description = html.unescape(re.match('.*<i class="icon-play"></i></span>(.*?)[ \t]*</a>', item).group(1).strip())
-        debate_video_id = re.match('.*<a class="webtv-link".*_(.*?)">.*', item).group(1)
+        debate_video_id = re.match('.*/sv/webb-tv/video/.*?_(.*?)">.*', item).group(1)
         debate_thumbnail_url = re.match('.*(https://mhdownload.riksdagen.se/posterframe/[0-9]+\.jpg).*', item).group(1)
         debate_subtitle = re.match('.*<span class="hit-subtitle">(.*)</span>.*?', item)
-        
 
         debate_date = get_date(debate_date_string)
         formatted_date = debate_date.strftime('%Y/%m/%d')

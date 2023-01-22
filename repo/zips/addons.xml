@@ -19,7 +19,7 @@
   - Bug fixes.
   - General improvements.</news>
 </extension>
-</addon><addon id="plugin.video.riksdagen" version="0.2.0" name="Riksdagen" provider-name="tomplast">
+</addon><addon id="plugin.video.riksdagen" version="0.2.1" name="Riksdagen" provider-name="tomplast">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.requests" version="2.22.0" />
@@ -34,8 +34,8 @@
   <assets>
     <icon>icon.png</icon>
   </assets>
-  <news>v0.1.0 (2023-01-21)
-  - Initial release.</news>
+  <news>v0.2.1 (2023-01-22)
+  - Fixed certain unplayable videos.</news>
 </extension>
 </addon><addon id="repository.tomplast" name="tomplast Repo" version="0.1.2" provider-name="tomplast">
     <extension point="xbmc.addon.repository" name="Example Repository">
