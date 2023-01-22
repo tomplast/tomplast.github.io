@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.tomplast" name="tomplast Repo" version="0.1.1" provider-name="tomplast">
+<addon id="repository.tomplast" name="tomplast Repo" version="0.1.2" provider-name="tomplast">
     <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir minversion="19.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/matrix/zips/</datadir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
