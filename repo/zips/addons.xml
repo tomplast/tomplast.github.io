@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.premierone" version="0.2.0" name="Premier One" provider-name="tomplast">
+<requires>
+  <import addon="xbmc.python" version="3.0.0" />
+  <import addon="script.module.requests" version="2.22.0" />
+  <import addon="script.module.routing" version="0.2.0" /></requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Premier One Kodi Video Plugin</summary>
+  <description lang="en_GB">Premier One Kodi Video Plugin.</description>
+  <disclaimer lang="en_GB" />
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+  <news>v0.2.0 (2023-01-01)
+  - Play movies directly (without having to chose "season 0" and select single video entry).
+  - Bug fixes.
+  - General improvements.</news>
+</extension>
+</addon><addon id="plugin.video.riksdagen" version="0.2.0" name="Riksdagen" provider-name="tomplast">
+<requires>
+  <import addon="xbmc.python" version="3.0.0" />
+  <import addon="script.module.requests" version="2.22.0" />
+  <import addon="script.module.routing" version="0.2.0" /></requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">riksdagen.se Kodi Video Plugin</summary>
+  <description lang="en_GB">riksdagen.se Kodi Video Plugin.</description>
+  <disclaimer lang="en_GB" />
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+  <news>v0.1.0 (2023-01-21)
+  - Initial release.</news>
+</extension>
+</addon><addon id="repository.tomplast" name="tomplast Repo" version="0.1.0" provider-name="tomplast">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tomplast/tomplast.github.io/main/matrix/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>repository.tomplast</summary>
+        <description>Repo for tomplast's Kodi stuff</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
